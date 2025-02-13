@@ -22,7 +22,7 @@ def degree_comparison(a, b, m):
     a //= nod
     b //= nod
     m //= nod
-    print(f"Одно из решений: x = {x0} + k * {a} (где k - любое целое число)")
+    print(f"Одно из решений: x = {x0} + {a}k (где k - любое целое число)")
 
     for k in range(nod):
         total = (x0 + k * (m // nod)) % (m // nod)
